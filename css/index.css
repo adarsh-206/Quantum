@@ -1,0 +1,203 @@
+.person-info {
+    text-align: center;
+}
+
+.person-info img {
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.person-info h4 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.person-info p {
+    margin: 5px 0;
+}
+
+.update-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.update-button {
+    background-color: #49796B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-button:hover {
+    background-color: #006A4E;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #49796B;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for the icons and links */
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Add a hover effect for the links */
+.sidebar a:hover {
+    color: #00bcd4;
+}
+
+/* Styling for the icons */
+.sidebar-icons i {
+    font-size: 24px;
+}
+
+/* Custom styles for the content */
+.content {
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.back-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.notification-icon {
+    position: absolute;
+    top: 10px;
+    right: 140px;
+    color: grey;
+}
+
+.profile-info {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 14px;
+}
+
+.profile-image {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.current-appointment {
+    margin-top: 40px;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.sub-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-box {
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.right-one-one {
+    text-align: center;
+}
+
+.right-one-one img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.right-one-one h4 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.right-one-one p {
+    margin: 5px 0;
+}
+
+.box-right {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.right-one-one img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.right-one-one h6 {
+    margin-top: 15px;
+}
+
+.right-two img {
+    height: 50px;
+    width: 50px;
+}
+
+.table-right {
+    height: 25px;
+    width: 25px;
+}
+
+.table-right img {
+    margin-right: 5px;
+}
